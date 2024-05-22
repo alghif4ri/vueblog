@@ -14,6 +14,8 @@ export default {
       return props.post.body.substring(0, 100) + "...";
     });
     return { snippet };
+
+    
   },
 };
 </script>
