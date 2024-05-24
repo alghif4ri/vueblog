@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <h1>Home</h1>
+    <div  v-if="error">{{ error }}</div>
     <PostList v-if="showPosts" :posts="posts" />
     <button @click="showPosts = !showPosts">Unmounted</button>
     <button @click="posts.pop()">Delete Post</button>
@@ -16,21 +17,25 @@ export default {
     PostList,
   },
   setup() {
-    const posts = ref([
-      {
-        id: 1,
-        title: "Post 1",
-        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim saepe sint natus sequi eligendi! Iste ullam tempore adipisci commodi quaerat?",
-      },
-      {
-        id: 2,
-        title: "Post 2",
-        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim saepe sint natus sequi eligendi! Iste ullam tempore adipisci commodi quaerat?",
-      },
-    ]);
+    const posts = ref([]);
+    const error = ref(null);
+
+    const load = async () => {
+      try {
+        let data = await fetch("http://localhost:3000/posts");
+        if (!data.ok) {
+          throw Error("No Data");
+        }
+        posts.value = await data.json();
+      } catch (err) {
+        error.value = err.message;
+      }
+    };
+
+    load();
 
     const showPosts = ref(true);
-    return { posts, showPosts };
+    return { posts, showPosts, error };
   },
 };
 </script>

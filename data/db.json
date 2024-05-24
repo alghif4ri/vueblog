@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "body": "This is my first post!",
+      "tags": ["tag1", "tag2"]
+    },
+    {
+      "id": 2,
+      "title": "My Second Post",
+      "body": "This is my second post!",
+      "tags": ["tag3", "tag4"]
+    }
+  ]
+}
