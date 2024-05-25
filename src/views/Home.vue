@@ -2,9 +2,9 @@
   <div class="home">
     <h1>Home</h1>
     <div v-if="error">{{ error }}</div>
-    <PostList v-if="showPosts" :posts="posts" />
-    <button @click="showPosts = !showPosts">Unmounted</button>
-    <button @click="posts.pop()">Delete Post</button>
+    <PostList :posts="posts" />
+    <!-- <button @click="showPosts = !showPosts">Unmounted</button>
+    <button @click="posts.pop()">Delete Post</button> -->
   </div>
 </template>
 
@@ -17,10 +17,10 @@ export default {
     PostList,
   },
   setup() {
-    const { posts, showPosts, error, load } = getPosts();
+    const { posts, error, load } = getPosts();
     load();
 
-    return { posts, showPosts, error, load };
+    return { posts, error, load };
   },
 };
 </script>

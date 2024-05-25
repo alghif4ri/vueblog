@@ -3,13 +3,13 @@
     {
       "id": 1,
       "title": "My First Post",
-      "body": "This is my first post!",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui consectetur aperiam nostrum. Minima harum reprehenderit reiciendis quod dolore. Tempore, incidunt.",
       "tags": ["tag1", "tag2"]
     },
     {
       "id": 2,
       "title": "My Second Post",
-      "body": "This is my second post!",
+      "body": "Qui consectetur aperiam nostrum. Minima harum reprehenderit reiciendis quod dolore. Tempore, incidunt.",
       "tags": ["tag3", "tag4"]
     }
   ]
