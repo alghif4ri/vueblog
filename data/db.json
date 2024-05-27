@@ -1,16 +1,39 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "My First Post",
       "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui consectetur aperiam nostrum. Minima harum reprehenderit reiciendis quod dolore. Tempore, incidunt.",
-      "tags": ["tag1", "tag2"]
+      "tags": [
+        "tag1",
+        "tag2"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "My Second Post",
       "body": "Qui consectetur aperiam nostrum. Minima harum reprehenderit reiciendis quod dolore. Tempore, incidunt.",
-      "tags": ["tag3", "tag4"]
+      "tags": [
+        "tag3",
+        "tag4"
+      ]
+    },
+    {
+      "id": "788f",
+      "title": "post ketiga",
+      "body": "ini post ke tiga",
+      "tags": [
+        "postbaru"
+      ]
+    },
+    {
+      "id": "edb5",
+      "title": "posting ke empat",
+      "body": "ini adalah postingan ke empat",
+      "tags": [
+        "vue",
+        "javascript"
+      ]
     }
   ]
 }

@@ -1,4 +1,5 @@
 <template>
+    <div>LOADING</div>
   <div class="spin"></div>
 </template>
 
