@@ -30,43 +30,11 @@
 </template>
 
 <script>
-import { ref } from "@vue/reactivity";
-import {useRouter} from 'vue-router'
+import putPost from "@/composable/putPost";
 
 export default {
   setup() {
-    const router = useRouter();
-    const title = ref("");
-    const body = ref("");
-    const tag = ref("");
-    const tags = ref([]);
-
-    const handleKeydown = () => {
-      if (!tags.value.includes(tag.value)) {
-        tag.value = tag.value.replace(/\s/g, "");
-
-        tags.value.push(tag.value);
-      }
-      tag.value = "";
-    };
-
-    const handleSubmit = async () => {
-      const post = {
-        title: title.value,
-        body: body.value,
-        tags: tags.value,
-      };
-
-      await fetch("http://localhost:3000/posts/", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(post),
-      });
-
-      router.push({
-        name:'Home'
-      })
-    };
+    const { title, body, tag, tags, handleKeydown, handleSubmit } = putPost();
 
     return { title, body, tag, tags, handleKeydown, handleSubmit };
   },
