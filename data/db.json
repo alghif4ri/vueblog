@@ -2,46 +2,33 @@
   "posts": [
     {
       "id": "1",
-      "title": "My First Post",
-      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui consectetur aperiam nostrum. Minima harum reprehenderit reiciendis quod dolore. Tempore, incidunt.",
-      "tags": [
-        "tag1",
-        "tag2"
-      ]
+      "title": "Pengenalan Dasar HTML untuk Pemula",
+      "body": "HTML, atau HyperText Markup Language, adalah bahasa standar yang digunakan untuk membuat dan merancang halaman web. HTML terdiri dari elemen-elemen yang didefinisikan dengan tag. Tag HTML berfungsi untuk menandai awal dan akhir dari elemen, contohnya <html>, <head>, <body>, <div>, <p>, dan banyak lagi. Dalam artikel ini, kita akan mempelajari dasar-dasar HTML dan bagaimana membuat halaman web sederhana.",
+      "tags": ["HTML", "Pemrograman Web", "Dasar-dasar"]
     },
     {
       "id": "2",
-      "title": "My Second Post",
-      "body": "Qui consectetur aperiam nostrum. Minima harum reprehenderit reiciendis quod dolore. Tempore, incidunt.",
-      "tags": [
-        "tag3",
-        "tag4"
-      ]
+      "title": "Membangun Situs Web Responsif dengan CSS",
+      "body": "CSS, atau Cascading Style Sheets, digunakan untuk mengatur tampilan dan tata letak halaman web. Dengan CSS, Anda dapat mengontrol warna, font, jarak antar elemen, dan bahkan membuat desain responsif yang beradaptasi dengan ukuran layar perangkat. Artikel ini akan membahas teknik-teknik dasar dan lanjutan dalam CSS, termasuk penggunaan Flexbox dan Grid Layout untuk membangun situs web yang responsif.",
+      "tags": ["CSS", "Responsif", "Desain Web"]
     },
     {
-      "id": "788f",
-      "title": "post ketiga",
-      "body": "ini post ke tiga",
-      "tags": [
-        "postbaru"
-      ]
+      "id": "3",
+      "title": "Pengenalan JavaScript: Membuat Halaman Web Interaktif",
+      "body": "JavaScript adalah bahasa pemrograman yang digunakan untuk menambah interaktivitas pada halaman web. Dengan JavaScript, Anda dapat membuat elemen halaman yang dinamis, seperti formulir yang dapat divalidasi, menu dropdown, dan efek animasi. Artikel ini akan memberikan pengenalan dasar tentang JavaScript, cara kerjanya di browser, dan contoh sederhana untuk memulai.",
+      "tags": ["JavaScript", "Interaktif", "Pemrograman Web"]
     },
     {
-      "id": "edb5",
-      "title": "posting ke empat",
-      "body": "ini adalah postingan ke empat",
-      "tags": [
-        "vue",
-        "javascript"
-      ]
+      "id": "4",
+      "title": "Menggunakan Framework Front-End: Pengenalan React",
+      "body": "React adalah salah satu framework JavaScript paling populer untuk membangun antarmuka pengguna. Dibuat oleh Facebook, React memudahkan pengembang untuk membuat komponen-komponen UI yang dapat digunakan kembali. Artikel ini akan membahas konsep dasar React, seperti komponen, props, dan state, serta memberikan contoh sederhana untuk memulai proyek dengan React.",
+      "tags": ["React", "Framework", "JavaScript", "Front-End"]
     },
     {
-      "id": "4d9f",
-      "title": "asdadasasd",
-      "body": "dasdasd",
-      "tags": [
-        "coba"
-      ]
+      "id": "5",
+      "title": "Mengembangkan Aplikasi Web Full-Stack dengan Node.js dan Express",
+      "body": "Node.js adalah runtime JavaScript yang memungkinkan Anda untuk menjalankan JavaScript di sisi server. Dengan Node.js dan framework Express, Anda dapat membangun aplikasi web full-stack yang lengkap. Artikel ini akan menjelaskan cara mengatur server dengan Express, mengelola rute, dan menghubungkan dengan basis data. Ini adalah panduan dasar untuk memulai pengembangan aplikasi web full-stack dengan Node.js dan Express.",
+      "tags": ["Node.js", "Express", "Full-Stack", "JavaScript"]
     }
   ]
 }

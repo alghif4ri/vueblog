@@ -1,7 +1,9 @@
 <template>
-  <div class="post-list"></div>
   <div v-for="post in posts" :key="post.id">
-    <PostSingle :post="post" />
+    <div class="post-preview">
+      <PostSingle :post="post" />
+    </div>
+    <hr class="my-4" />
   </div>
 </template>
 
