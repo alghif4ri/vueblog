@@ -2,7 +2,7 @@ import { ref } from "vue";
 
 const getPosts = () => {
   const posts = ref([]);
-  const showPosts = ref(true);
+  // const showPosts = ref(true);
   const error = ref(null);
 
   const load = async () => {
@@ -20,7 +20,7 @@ const getPosts = () => {
     }
   };
 
-  return { posts, showPosts, error, load };
+  return { posts,  error, load };
 };
 
 export default getPosts;
