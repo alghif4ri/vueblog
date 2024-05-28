@@ -6,7 +6,7 @@
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="#!">
-                <span class="fa-stack fa-2x">
+                <span class="fa-stack fa-1x">
                   <i class="fas fa-circle fa-stack"></i>
                   <i class="fab fa-x-twitter fa-stack-1x fa-inverse"></i>
                 </span>
@@ -14,7 +14,7 @@
             </li>
             <li class="list-inline-item">
               <a href="#!">
-                <span class="fa-stack fa-2x">
+                <span class="fa-stack fa-1x">
                     <i class="fas fa-circle fa-stack"></i>
                   <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
                 </span>
@@ -22,7 +22,7 @@
             </li>
             <li class="list-inline-item">
               <a href="#!">
-                <span class="fa-stack fa-2x">
+                <span class="fa-stack fa-1x">
                     <i class="fas fa-circle fa-stack"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                 </span>
