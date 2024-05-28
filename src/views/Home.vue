@@ -9,6 +9,12 @@
     <div v-else>
       <Loading />
     </div>
+    <button class="btn btn-primary">Button</button>
+    <p class="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorum
+      nobis corporis fugit iure exercitationem amet nostrum laudantium quidem
+      possimus.
+    </p>
   </div>
 </template>
 
@@ -27,6 +33,9 @@ export default {
     load();
 
     return { posts, showPosts, error, load };
+  },
+  mounted() {
+    console.log($(".para").text());
   },
 };
 </script>
